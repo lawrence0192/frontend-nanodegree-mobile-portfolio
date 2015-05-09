@@ -317,9 +317,9 @@ var resizePizzas = function(size) {
         case "1":
           return 0.25;
         case "2":
-          return 0.3333;
-        case "3":
           return 0.5;
+        case "3":
+          return 0.9;
         default:
           console.log("bug in sizeSwitcher");
       }
