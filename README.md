@@ -1,3 +1,22 @@
+In order to access the project, the index.html web page should be opened.
+This web page shows a brief description of Cameron's portfolio and links to four of his projects.
+
+The first link is to a game created by Cameron called "2048". It also shows a screenshot of what the game looks like.
+
+The next link is to a page that thanks all of the contributors to this program from Udacity and Google.
+
+The third link
+
+
+
+
+
+
+
+
+
+
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
