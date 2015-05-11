@@ -5,7 +5,9 @@ The first link is to a game created by Cameron called "2048". It also shows a sc
 
 The next link is to a page that thanks all of the contributors to this program from Udacity and Google.
 
-The third link
+The third link is a link to a page that talks about the importance of developing mobile applications. 
+
+The final link is a link to Cam's pizza company website, "Cam's Pizzeria". 
 
 
 
