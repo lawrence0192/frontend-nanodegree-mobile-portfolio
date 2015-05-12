@@ -11,7 +11,9 @@ The final link is a link to Cam's pizza company website, "Cam's Pizzeria".
 
 To increase page load speed for the index.html file, there were a couple of necessary changes.  Async was added to all of the js files in order to prevent render blocking.  CSS was also inlined into the html file.
 
-For the pizza.html file, css was also inlined and async was added to the js files.  Also, all of the css files were minified. The sliding pizza variable was also reduced from 200 to 35.
+For the pizza.html file, css was also inlined and async was added to the js files.  Also, all of the css files were minified. 
+
+Within the main.js file, the sliding pizza variable was also reduced from 200 to 35.  The js file was also minified.
 
 
 
