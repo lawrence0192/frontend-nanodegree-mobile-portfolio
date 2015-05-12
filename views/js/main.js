@@ -439,7 +439,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
 
     
-  for (var i = 0; i < 100; i++) { // DECREASED THE NUMBER OF PIZZAS TO DRAW ON SCREEN
+  for (var i = 0; i < 35; i++) { // DECREASED THE NUMBER OF PIZZAS TO DRAW ON SCREEN
     var newelem = elem.cloneNode(true); // CLONED ELEM NODE SO THAT THE APPENDCHILD CALL WOULD DRAW ALL PIZZAS
     newelem.basicLeft = (i % cols) * s;
     newelem.style.top = (Math.floor(i / cols) * s) + 'px';
