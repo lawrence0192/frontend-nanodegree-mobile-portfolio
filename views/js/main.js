@@ -403,7 +403,7 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   var items = document.getElementsByClassName('mover');
-  // ARRAY CREATED FOR PHASE FUNCTION FOR USE IN LOOP
+  // array created for phase function for use in loop
   var phase = [];
   // PHASE LINE TAKEN OUT OF MAIN LOOP SINCE VALUE ONLY CHANGED 5 TIMES
   for (var i = 0; i < 5; i++) {
@@ -439,7 +439,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
 
     
-  for (var i = 0; i < 35; i++) { // DECREASED THE NUMBER OF PIZZAS TO DRAW ON SCREEN
+  for (var i = 0; i < 35; i++) { // Lowered the number of pizzas on the screen from 200 to 35
     var newelem = elem.cloneNode(true); // CLONED ELEM NODE SO THAT THE APPENDCHILD CALL WOULD DRAW ALL PIZZAS
     newelem.basicLeft = (i % cols) * s;
     newelem.style.top = (Math.floor(i / cols) * s) + 'px';
