@@ -9,7 +9,7 @@ The third link is a link to a page that talks about the importance of developing
 
 The final link is a link to Cam's pizza company website, "Cam's Pizzeria". 
 
-To increase page load speed for the index.html file, there were a couple of necessary changes.  Media print was added, and Async was added to all of the js files in order to prevent render blocking. CSS was also inlined into the html file and each image was compressed.
+To increase page load speed for the index.html file, there were a couple of necessary changes.  Media print was added, and Async was added to all of the js files in order to prevent render blocking. CSS was also inlined into the html file and each image was compressed. The web font call was also moved to the bottom of the page.
 
 For the pizza.html file, css was also inlined and async was added to the js files.  Also, all of the css files were minified. 
 
