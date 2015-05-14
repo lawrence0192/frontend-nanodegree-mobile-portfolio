@@ -9,11 +9,11 @@ The third link is a link to a page that talks about the importance of developing
 
 The final link is a link to Cam's pizza company website, "Cam's Pizzeria". 
 
-To increase page load speed for the index.html file, there were a couple of necessary changes.  Media print was added, and Async was added to all of the js files in order to prevent render blocking. CSS was also inlined into the html file.
+To increase page load speed for the index.html file, there were a couple of necessary changes.  Media print was added, and Async was added to all of the js files in order to prevent render blocking. CSS was also inlined into the html file and each image was compressed.
 
 For the pizza.html file, css was also inlined and async was added to the js files.  Also, all of the css files were minified. 
 
-Within the main.js file, the sliding pizza variable was also reduced from 200 to 35.  The js file was also minified.
+Within the main.js file, the sliding pizza variable was also reduced from 200 to 35.  The js file was also minified. In the changePizzaSizes() function, two variables were placed on the outside of a "for" loop to avoid unnecessary run time for those particular variables. The same was done with the elements of a variable within the updatePositions() funciton that were being redefined as the same exact value for every loop iteration; certain elements of the variable "elem" were placed outside of the "for" loop. Within that same "for" loop, a variable "newelem" was cloned for each iteration, so that every single clone could be drawn on the screen. Also, the document.querySelectorAll() function was replaced throughout the entire code with the function call document.getElementsByClassName() to increase access speed to the DOM elements; when each was replaced the period in front of the argument was removed, since this was not needed.
 
 
 
